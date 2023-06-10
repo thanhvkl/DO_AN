@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altair</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header__menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="header__logo">
+                <img src="./assets/logo@2x_white.png" alt="">
+            </div>
+            <div class="header__nav">
+                <ul>
+                    <li>
+                        <a href="#">HOME <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="dropdown">
+                            <ul>
+                                <li><a href="#">Purchase Altair Theme</a></li>
+                                <li><a href="#">View All Themes</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">TOURS <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="dropdown">
+                            <ul>
+                                <li><a href="#">Tour Grid Fullwidth</a></li>
+                                <li><a href="#">Tour Grid Contain</a></li>
+                                <li><a href="#">Tour Classic Fullwidth</a></li>
+                                <li><a href="#">Tour Classic Contain</a></li>
+                                <li><a href="#">Tour List Image</a></li>
+                                <li><a href="#">Tour List</a></li>
+                                <li><a href="#">Single Tour</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">PAGE <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="dropdown">
+                            <div class="dropdown__content">
+                                <ul>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Destination</a></li>
+                                    <li><a href="#">Page Fullwidth</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Page Right Sidebar</a></li>
+                                    <li><a href="#">Page Left Sidebar</a></li>
+                                    <li><a href="#">Shop</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Gallery Fullscreen</a></li>
+                                    <li><a href="#">Gallery Grid Fullwidth</a></li>
+                                    <li><a href="#">Gallery Grid Contain</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Contact Header Image</a></li>
+                                    <li><a href="#">Contact Map</a></li>
+                                    <li><a href="#">Contact Fullscreen</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">BLOG <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="dropdown">
+                            <ul>
+                                <li><a href="#">Fullwidth</a></li>
+                                <li><a href="#">Right Sidebar</a></li>
+                                <li><a href="#">Left Sidebar</a></li>
+                                <li><a href="#">Masonry</a></li>
+                                <li><a href="#">Masonry Fullwidth</a></li>
+                                <li><a href="#">Single Post</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">SHORT CODE <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="dropdown">
+                            <div class="dropdown__content">
+                                <ul>
+                                    <li><a href="#">Accordion & Toggles</a></li>
+                                    <li><a href="#">Alert Boxes</a></li>
+                                    <li><a href="#">Animated Content</a></li>
+                                    <li><a href="#">Buttons & Social Icons</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Columns</a></li>
+                                    <li><a href="#">Dividers</a></li>
+                                    <li><a href="#">Gallery</a></li>
+                                    <li><a href="#">Google Maps</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Image Animation</a></li>
+                                    <li><a href="#">Image Teasers</a></li>
+                                    <li><a href="#">Media</a></li>
+                                    <li><a href="#">...</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Pricing</a></li>
+                                    <li><a href="#">Promo Boxes</a></li>
+                                    <li><a href="#">Tabs</a></li>
+                                    <li><a href="#">...</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">SHOP</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="header__search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="header__contact">
+                <i class="fa-solid fa-phone"></i>
+                <span>1800-2345-5678</span>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="slider">
+            <div class="slider__item">
+                <img src="./assets/1600x1200-1.jpg" alt="">
+                <div class="slider__item__desc">
+                    <span>SWITZERLAND</span>
+                    <h3>ZURICH</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias ratione atque est ullam
+                        architecto corporis! Praesentium, perspiciatis.</p>
+                </div>
+            </div>
+            <div class="slider__item">
+                <img src="./assets/1600x1200-4-1024x768.jpg" alt="">
+                <div class="slider__item__desc">
+                    <span>FRANCE</span>
+                    <h3>PARIS</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias ratione atque est ullam
+                        architecto corporis! Praesentium, perspiciatis.</p>
+                </div>
+            </div>
+            <div class="slider__item">
+                <img src="./assets/1600x1200-2.jpg" alt="">
+                <div class="slider__item__desc">
+                    <span>ITALY</span>
+                    <h3>VENEZIA</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias ratione atque est ullam
+                        architecto corporis! Praesentium, perspiciatis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="search">
+        <div class="container">
+            <div class="desc">
+                <span>DESTINATION</span>
+                <input type="text" placeholder="City, region or keywords">
+            </div>
+            <div class="date">
+                <span>DATE</span>
+                <div class="input">
+                    <input type="date" placeholder="Departure">
+                    <input type="date" placeholder="Arrival">
+                </div>
+            </div>
+            <div class="budget">
+                <span>MAX BUDGETS</span>
+                <input type="text" placeholder="USD EX. 100">
+            </div>
+            <div class="btn__search">
+                <button>SEARCH</button>
+            </div>
+        </div>
+    </section>
+    <section class="offer">
+        <div class="offer__title">
+            <h2>BEST OFFERS</h2>
+            <span>CHECK OUT OUR BEST PROMOTION TOURS</span>
+        </div>
+        <div class="offer__content">
+            <div class="grid">
+                <div class="grid__item">
+                    <div class="grid__item__desc">
+                        <div class="grid__item__desc__item">
+                            <span>TURKEY</span>
+                            <span>8 DAY</span>
+                        </div>
+                        <div class="grid__item__desc__item">
+                            <span>Grand Turkey</span>
+                            <span>$200</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="grid__item__desc">
+                        <div class="grid__item__desc__item">
+                            <span>TURKEY</span>
+                            <span>8 DAY</span>
+                        </div>
+                        <div class="grid__item__desc__item">
+                            <span>Grand Turkey</span>
+                            <span>$200</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="grid__item__desc">
+                        <div class="grid__item__desc__item">
+                            <span>TURKEY</span>
+                            <span>8 DAY</span>
+                        </div>
+                        <div class="grid__item__desc__item">
+                            <span>Grand Turkey</span>
+                            <span>$200</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="grid__item__desc">
+                        <div class="grid__item__desc__item">
+                            <span>TURKEY</span>
+                            <span>8 DAY</span>
+                        </div>
+                        <div class="grid__item__desc__item">
+                            <span>Grand Turkey</span>
+                            <span>$200</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="grid__item__desc">
+                        <div class="grid__item__desc__item">
+                            <span>TURKEY</span>
+                            <span>8 DAY</span>
+                        </div>
+                        <div class="grid__item__desc__item">
+                            <span>Grand Turkey</span>
+                            <span>$200</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="grid__item__desc">
+                        <div class="grid__item__desc__item">
+                            <span>TURKEY</span>
+                            <span>8 DAY</span>
+                        </div>
+                        <div class="grid__item__desc__item">
+                            <span>Grand Turkey</span>
+                            <span>$200</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="customer">
+        <h2>WHAT CUSTOMERS SAY</h2>
+        <div class="customer__slider">
+            <div class="customer__item">
+                <p>Vivamus aliquet felis eu diam ultricies congue. Morbi porta lorem nec consectetur porta. Sed quis dui
+                    elit. Pellentesque
+                    habitant morbi tristique senectus et netus et male.</p>
+                <h3>Mark Anthony <span>CEO-WikiMedia</span></h3>
+            </div>
+            <div class="customer__item">
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed
+                    vestibulum orci quam.
+                    Pellentesque habitant morbi tristique senectus et netus et male.</p>
+                <h3>Christina Hardy <span>Marketing Manager-Red Inc.</span></h3>
+            </div>
+            <div class="customer__item">
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis
+                    pretium. Pellentesque
+                    habitant morbi tristique senectus et netus et male.</p>
+                <h3>Jane Bennett <span>Developer-Hubboard Media</span></h3>
+            </div>
+        </div>
+    </section>
+    <section class="image">
+        <img src="./assets/1600x1200-13.jpg" alt="">
+    </section>
+    <section class="info">
+        <div class="container">
+            <h2>LAKE GENEVA SWITZERLAND</h2>
+            <div class="info__content">
+                <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla.Lorem ipsum dolor sit amet,
+                    consectetuer
+                    adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</br>
+                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                    aliquip
+                    ex ea commodo
+                    consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+                    vel
+                    illum dolore eu
+                    feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
+                    luptatum
+                    zzril delenit
+                    augue duis dolore te feugait nulla</p>
+                <span>“It was fantastic going on the sled to see the views on the mountains! And the action of it – I
+                    loved
+                    going fast!”
+                </span>
+            </div>
+        </div>
+    </section>
+    <section class="choose">
+        <div class="container">
+            <h2>WHY CHOOSE US</h2>
+            <div class="choose__content">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <div class="choose__item">
+                            <div class="choose__item__icon">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="choose__item__header">
+                                <h3>Handpicked Hotels</h3>
+                            </div>
+                            <div class="choose__item__content">
+                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget
+                                    dolor. Aenean
+                                    massa</p>
+                            </div>
+                            <div class="choose__item__learn-more">
+                                <a href="#">learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="choose__item">
+                            <div class="choose__item__icon">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="choose__item__header">
+                                <h3>Handpicked Hotels</h3>
+                            </div>
+                            <div class="choose__item__content">
+                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget
+                                    dolor. Aenean
+                                    massa</p>
+                            </div>
+                            <div class="choose__item__learn-more">
+                                <a href="#">learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="choose__item">
+                            <div class="choose__item__icon">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="choose__item__header">
+                                <h3>Handpicked Hotels</h3>
+                            </div>
+                            <div class="choose__item__content">
+                                <p>Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget
+                                    dolor. Aenean
+                                    massa</p>
+                            </div>
+                            <div class="choose__item__learn-more">
+                                <a href="#">learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="react">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-3">
+                    <div class="react__item">
+                        <div class="react__item__icon">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <div class="react__item__number">
+                            70,101
+                        </div>
+                        <div class="react__item__desc">
+                            <h3>HAPPY CUSTOMERS</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="react__item">
+                        <div class="react__item__icon">
+                            <i class="fa fa-bus"></i>
+                        </div>
+                        <div class="react__item__number">
+                            109
+                        </div>
+                        <div class="react__item__desc">
+                            <h3>AMAZING TOURS</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="react__item">
+                        <div class="react__item__icon">
+                            <i class="fa fa-briefcase"></i>
+                        </div>
+                        <div class="react__item__number">
+                            6,409
+                        </div>
+                        <div class="react__item__desc">
+                            <h3>IN BUSINESS</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="react__item">
+                        <div class="react__item__icon">
+                            <i class="fa fa-comments"></i>
+                        </div>
+                        <div class="react__item__number">
+                            10,876
+                        </div>
+                        <div class="react__item__desc">
+                            <h3>SUPPORT CASES</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="new-update">
+        <div class="new-update__title">
+            <h2>NEWS & UPDATE</h2>
+            <span>OUR LATEST NEWS & PROMOTIONS</span>
+        </div>
+        <div class="new-update__content">
+            <div class="new-update__grid">
+                <div class="new-update__item">
+                    <div class="new-update__item__desc">
+                        <h3>STANDARD BLOG POST WITH IMAGE</h3>
+                        <span>ON MAY 28, 2014</span>
+                    </div>
+                    <div class="new-update__item__overlay"></div>
+                </div>
+                <div class="new-update__item">
+                    <div class="new-update__item__desc">
+                        <h3>STANDARD BLOG POST WITH IMAGE</h3>
+                        <span>ON MAY 28, 2014</span>
+                    </div>
+                    <div class="new-update__item__overlay"></div>
+                </div>
+                <div class="new-update__item">
+                    <div class="new-update__item__desc">
+                        <h3>STANDARD BLOG POST WITH IMAGE</h3>
+                        <span>ON MAY 28, 2014</span>
+                    </div>
+                    <div class="new-update__item__overlay"></div>
+                </div>
+                <div class="new-update__item">
+                    <div class="new-update__item__desc">
+                        <h3>STANDARD BLOG POST WITH IMAGE</h3>
+                        <span>ON MAY 28, 2014</span>
+                    </div>
+                    <div class="new-update__item__overlay"></div>
+                </div>
+                <div class="new-update__item">
+                    <div class="new-update__item__desc">
+                        <h3>STANDARD BLOG POST WITH IMAGE</h3>
+                        <span>ON MAY 28, 2014</span>
+                    </div>
+                    <div class="new-update__item__overlay"></div>
+                </div>
+                <div class="new-update__item">
+                    <div class="new-update__item__desc">
+                        <h3>STANDARD BLOG POST WITH IMAGE</h3>
+                        <span>ON MAY 28, 2014</span>
+                    </div>
+                    <div class="new-update__item__overlay"></div>
+                </div>
+                <div class="new-update__item">
+                    <div class="new-update__item__desc">
+                        <h3>STANDARD BLOG POST WITH IMAGE</h3>
+                        <span>ON MAY 28, 2014</span>
+                    </div>
+                    <div class="new-update__item__overlay"></div>
+                </div>
+                <div class="new-update__item">
+                    <div class="new-update__item__desc">
+                        <h3>STANDARD BLOG POST WITH IMAGE</h3>
+                        <span>ON MAY 28, 2014</span>
+                    </div>
+                    <div class="new-update__item__overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <img src="./assets/logo@2x_white.png" alt="">
+                    <p>A Powerful & Beautiful Multi-Purpose WordPress theme with tons of advanced features.</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <h3>CONTACT INFO</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i> <span>732/21 Second Street, Manchester, King
+                                Street, Kingston United Kingdom</span></li>
+                        <li><i class="fa-solid fa-phone"></i> <span>345-677-554</span></li>
+                        <li><i class="fa fa-mobile"></i> <span>345-677-554</span></li>
+                        <li><i class="fa fa-envelope"></i> <span>info@altairtheme.com</span></li>
+                        <li><i class="fa fa-globe"></i> <span>themegoods.com</span></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <h3>RECENT POSTS</h3>
+                    <ul>
+                        <li><a href="#">Standard Blog Post With Image</a></li>
+                        <li><a href="#">Amazing Fullwidth Post</a></li>
+                        <li><a href="#">Link Post</a></li>
+                        <li><a href="#">Quote Post</a></li>
+                        <li><a href="#">Sidebar Post With Slideshow</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <h3>TAG</h3>
+                    <ul>
+                        <li>BLOG</li>
+                        <li>CITY</li>
+                        <li>DESIGN</li>
+                        <li>DESIGN</li>
+                        <li>LANDSCAPE</li>
+                        <li>MODEL</li>
+                        <li>PORTRAIT</li>
+                        <li>STREET</li>
+                        <li>PHOTOGRAPHY</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="copy-right">
+        <div class="container">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-flickr"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-vimeo-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+            <p>© COPYRIGHT ALTAIR THEME BY THEMEGOODS</p>
+        </div>
+    </section>
+    <div class="menu__mobile">
+        <div class="menu__mobile__close">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="list__menu">
+            <div class="list__menu__item">
+                <h3>Home</h3>
+                <ul>
+                    <li><a href="#">Purchase Altair Theme</a></li>
+                    <li><a href="#">View All Themes</a></li>
+                </ul>
+            </div>
+            <div class="list__menu__item">
+                <h3>Tours</h3>
+                <ul>
+                    <li><a href="#">Tour Grid Fullwidth</a></li>
+                    <li><a href="#">Tour Grid Contain</a></li>
+                    <li><a href="#">Tour Classic Fullwidth</a></li>
+                    <li><a href="#">Tour Classic Contain</a></li>
+                    <li><a href="#">Tour List Image</a></li>
+                    <li><a href="#">Tour List</a></li>
+                    <li><a href="#">Single Tour</a></li>
+                </ul>
+            </div>
+            <div class="list__menu__item">
+                <h3>Page</h3>
+                <div class="list__menu__item__dropdown">
+                    <h3>Column One</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Destination</a></li>
+                        <li><a href="#">Page Fullwidth</a></li>
+                    </ul>
+                </div>
+                <div class="list__menu__item__dropdown">
+                    <h3>Column Two</h3>
+                    <ul>
+                        <li><a href="#">Page Right Sidebar</a></li>
+                        <li><a href="#">Page Left Sidebar</a></li>
+                        <li><a href="#">Shop</a></li>
+                    </ul>
+                </div>
+                <div class="list__menu__item__dropdown">
+                    <h3>Column Three</h3>
+                    <ul>
+                        <li><a href="#">Gallery Fullscreen</a></li>
+                        <li><a href="#">Gallery Grid Fullwidth</a></li>
+                        <li><a href="#">Gallery Grid Contain</a></li>
+                    </ul>
+                </div>
+                <h3>Column Four</h3>
+                <ul>
+                    <li><a href="#">Contact Header Image</a></li>
+                    <li><a href="#">Contact Map</a></li>
+                    <li><a href="#">Contact Fullscreen</a></li>
+                </ul>
+            </div>
+            <div class="list__menu__item">
+                <h3>Blog</h3>
+                <ul>
+                    <li><a href="#">Fullwidth</a></li>
+                    <li><a href="#">Right Sidebar</a></li>
+                    <li><a href="#">Left Sidebar</a></li>
+                    <li><a href="#">Masonry</a></li>
+                    <li><a href="#">Masonry Fullwidth</a></li>
+                    <li><a href="#">Single Post</a></li>
+                </ul>
+            </div>
+            <div class="list__menu__item">
+                <h3>Short Code</h3>
+                <div class="list__menu__item__dropdown">
+                    <h3>Column One</h3>
+                    <ul>
+                        <li><a href="#">Accordion & Toggles</a></li>
+                        <li><a href="#">Alert Boxes</a></li>
+                        <li><a href="#">Animated Content</a></li>
+                        <li><a href="#">Buttons & Social Icons</a></li>
+                    </ul>
+                </div>
+                <div class="list__menu__item__dropdown">
+                    <h3>Column Two</h3>
+                    <ul>
+                        <li><a href="#">Columns</a></li>
+                        <li><a href="#">Dividers</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Google Maps</a></li>
+                    </ul>
+                </div>
+                <div class="list__menu__item__dropdown">
+                    <h3>Column Three</h3>
+                    <ul>
+                        <li><a href="#">Image Animation</a></li>
+                        <li><a href="#">Image Teasers</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </div>
+                <h3>Column Four</h3>
+                <ul>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Promo Boxes</a></li>
+                    <li><a href="#">Tabs</a></li>
+                </ul>
+            </div>
+            <div class="list__menu__item">
+                <h3><a href="#">SHOP</a></h3>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./main.js"></script>
+
+</html>
